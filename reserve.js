@@ -352,3 +352,212 @@
 //         console.log(rand + ' Wrong key')
 //     }
 // }
+
+
+
+
+////        Nested Loop
+// for(let x = 1; x <=5; x++){
+//     var result = ''
+//     for(let y = 1; y <= x; y++){
+//         result += y + ' '
+//     }
+//     console.log(result)
+// }
+
+
+// for(let a = 1; a <=4; a++) {
+//     var result = ''
+//     for(let b = 1; b <=4; b++) {
+//         result += b + " "
+//     }
+//     console.log(result)
+// }
+
+////************* 04 July 2021 **************** */
+
+// for(let x =1; x < 10; x++){
+
+//     if (x % 3 == 0) {
+//         console.log('You are win')
+//         break
+//     }
+//     else {
+//         console.log(x + " go away")
+//     }
+// }
+
+/*
+while (true) {
+    let rand = Math.floor(Math.random() * 6 + 1)
+    if (rand == 6) {
+        console.log("Congrats! You are the winner.")
+        break
+    }else {
+        console.log(rand + ' Wrong key')
+    }
+} */
+
+/*
+while (true){
+    let num = Math.floor(Math.random() * 10 + 1)
+    if (num == 1){
+        console.log("It's lucky One")
+        break
+    }
+    else if (num == 7){
+        console.log(`It's lucky Seven`)
+        break
+    }
+    else {
+        console.log("It's " + num)
+    }
+} */
+
+/*
+for (let x = 1; x <= 10; x++){
+
+    if (x % 3 == 0) {
+        //  continue
+        // console.log("It's divisible by 3")
+        // break
+    }
+    else {
+        console.log(x)
+    }
+} */
+
+/*
+for (let a = 1; a <= 10; a++) {
+
+    if (a == 3 || a == 7) {
+        // continue
+    }
+    else{
+        console.log(a)
+    }
+} */
+
+
+// string litteral
+// var x = 'text something'
+
+// num to string
+
+// var n = 12
+// var str = n + ''
+// var str = n.toString()
+// var str = String(n)  //string constructor
+
+// console.log(str)
+
+
+
+//  5 June 2021
+
+// Excersice 01
+/*
+var num1, num2;
+num1 = 28;
+num2 = 28;
+num3 = 28;
+
+if (num1 > num2 && num1 > num3) {
+    console.log('The larger number of ' + num1 + ', ' + num2 + ' and ' + num3 + " is " + num1)
+}
+else if (num1 < num2 && num2 > num3) {
+    console.log('The larger number of ' + num1 + ', ' + num2 + ' and ' + num3 + " is " + num2)
+}
+else if (num1 < num3 && num2 < num3) {
+    console.log('The larger number of ' + num1 + ', ' + num2 + ' and ' + num3 + " is " + num3)
+}
+else {
+    console.log('The number of ' + num1 + ', ' + num2 + ' and ' +num3 + " are equal.")
+}*/
+
+
+
+// Excersice 03
+/*
+let x = 26;
+let y = 20;
+let z = 12;
+
+if (x > y && x > z) {
+    if (y > z) {
+        console.log(x + " " + y + " " + z)
+    }
+    else {
+        console.log((x + " " + z + " " + y))
+    }
+}
+else if (y > x && y > z) {
+    if (x > z) {
+        console.log(y + " " + x + " " + z)
+    }
+    else {
+        console.log(y + " " + z + " " + x)
+    }
+}
+else {
+    if (x > y) {
+        console.log(z + " " + x + " " + y)
+    }
+    else {
+        console.log(z + " " + y + " " + x )
+    }
+} */
+
+// var a = 2
+//     b = 1
+//     c = 5
+
+
+// let max_num = Math.max(3, 4, 20)
+// let min_num = Math.min(3, 4, 20)
+
+// console.log(max_num)
+// console.log(min_num)
+                                                 
+
+// JS string Methods
+/*
+var a = 'Hello!';
+var b = 'My name is Rabbi.'
+var d = '            Hello! How are you?     '
+
+var concat = a.concat(' ', b)       // string concat
+var strsub = concat.substr(18, 5)   //string substr
+var index = concat.charAt(18)       // index letter give
+var capital = (b.toUpperCase())     // Capitalize
+var small = b.toLowerCase()         // Smaill letter
+
+var space = d.trim()                // syntax er 1st & last space trim kora
+var spilit = concat.split()         // Word gula vanga array ta execute kora
+console.log(spilit)
+*/
+
+
+
+// Array Declaration *************
+
+/*
+var myArray = [1, 2, 'Rabbi', 'Fazle']
+
+myArray[5] = 'Mahin'  //add array
+myArray[3] = 13         // update data
+console.log(myArray)
+console.log(myArray[4])
+console.log(myArray.length)
+*/
+
+/*
+let arr = Array('Fazle', 'Rabbi', 13, 7, 17, 19)
+
+arr[0] = 'Name'
+
+console.log(arr)
+console.log(arr[1])
+*/
+
+
